@@ -1,0 +1,346 @@
+body {
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    height: 80px;
+    padding: 0 200px;
+}
+.navBar nav{
+    flex-basis: 80%;
+    display: inline-block;
+}
+.navBar nav div{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+.navBar nav div a:hover{
+    color: rgb(220, 0, 0);
+}
+.navBar nav div a{
+    text-decoration: none;
+    color: black;
+}
+.navBar input {
+    width: 350px;
+    height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/*Product*/
+.products {
+    background-image: url();
+    padding: 90px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.products{
+    padding: 0px 200px;
+}
+hr {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(220, 0, 0);
+    border: none;
+}
+.product-images {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.prd-img {
+    background-color:  rgb(234, 234, 234);
+    margin-right: 15px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.price {
+        color: black;
+        font-size: 22px;
+}
+.product-images button {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.product-images button:hover {
+    background-color: rgb(220, 0, 0);
+}
+
+.cart-roll i {
+    font-size: 80px;
+    color:  rgb(220, 0, 0);
+    text-align: center;
+    align-items: center;
+    padding-left: 750px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.cart-roll i:hover{
+    color: black;
+}
+
+/*BILLING*/
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+
+  .payment-bill2 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .payment-bills1 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .payment-bills {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+.payment-bill2,
+.payment-bills1,
+.payment-bills {
+  padding: 0px 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .payment-bill2 {
+      margin-bottom: 20px;
+    }
+  }
+  
+/* Log IN */
+.login-container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 40px 0;
+  }
+/* inputs and link buttons */
+.btn {
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+input {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0px;
+    display: block;
+}
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+.fb {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }
+  
+  /* submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .log-col {
+    float: left;
+    width: 60%;
+    margin: auto;
+    padding: 0px 20px 0 670px;
+    margin-top: 6px;
+  }
+  
+  .log-col1 {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0px 20px 0 450px;
+    margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* vertical line */
+  .vl {
+    position: absolute;
+    left: 10%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+  }
+  .inner {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
+  }
+  
+  /* bottom container */
+  .bottom-container {
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 650px) {
+    .log-col {
+      width: 100%;
+      margin-top: 0;
+    }
+    /* hide the vertical line */
+    .vl {
+      display: none;
+    }
+    /* show the hidden text on small screens */
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  .login-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+  }
+  .home:hover{
+    background-color: #45a049;
+  }
+
+  footer {
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}

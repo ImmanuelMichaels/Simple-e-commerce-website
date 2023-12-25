@@ -1,0 +1,233 @@
+body {
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    height: 80px;
+    padding: 0 200px;
+}
+.navBar nav{
+    flex-basis: 80%;
+    display: inline-block;
+}
+.navBar nav div{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+.navBar nav div a:hover{
+    color: rgb(220, 0, 0);
+}
+.navBar nav div a{
+    text-decoration: none;
+    color: black;
+}
+.navBar input {
+    width: 350px;
+    height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+}
+/*BANNER*/
+.banner {
+    background: url(product_bg.jpg);
+    padding: 97px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 97px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.banner h1{
+    padding: 0 0 50px;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    color: rgb(220, 0, 0);
+}
+.banner h1 span {
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    color: black;
+}
+.banner p {
+    margin-top: 0;
+    font-weight: 800px;
+    font-size: 33px;
+    color: black;
+}
+.banner button {
+    background-color: rgb(220, 0, 0);
+    height: 60px;
+    width: 300px;
+    border: none;
+    border-radius: 40px;
+}
+.banner button a {
+    color: white;
+    font-weight: 300px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.listitems {
+    display: flex;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.listitems{
+    padding: 0px 200px;
+}
+.listitems div {
+    width: 250px;
+    height: 160px;
+    align-items: center;
+    padding-left: 45px;
+    margin-left: 7px;
+}
+.bluediv{
+    background-color: rgb(220, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+.yellowdiv{
+    background-color:  rgb(234, 234, 234);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listitems div img {
+    margin-top: 50px;
+}
+.listitems span {
+    color: black;
+    font-weight: bold;
+}
+/*PRODUCTS*/
+.products {
+    background-image: url();
+    padding: 90px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.products{
+    padding: 0px 200px;
+    text-decoration: none;
+}
+hr {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(220, 0, 0);
+    border: none;
+}
+.product-images {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.product-images1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.product-images2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.prd-img {
+    background-color:  rgb(234, 234, 234);
+    margin-right: 15px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.products button {
+    background-color: rgb(220, 0, 0);
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    border: none;
+
+    margin-left: 650px;
+    margin-top: 40px;
+}
+.products button a {
+    text-decoration: none;
+    font-weight: 300px;
+    font-family: 'poppins';
+    color: white;
+    font-size: 20px;
+}
+
+/*BOXES*/
+.threebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.giftbox{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px #666666;
+    transform: translateY(80px);
+}
+.giftbox img {
+    width: 100px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220, 0, 0);
+    justify-content: space-between;
+    padding: 110px 200px 50px 200px;
+}
+
+.footer h3 {
+    font-size: 20px;
+    color: black;
+}
+.footer p {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+.col {
+    padding-right: 50px;
+    flex-basis: 18%;
+}
+footer {
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
